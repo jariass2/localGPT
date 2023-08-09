@@ -198,6 +198,7 @@ def main(device_type, show_sources):
     # for HF models
     model_id = "TheBloke/vicuna-7B-1.1-HF"
     model_basename = None
+    # model_id = "TheBloke/Llama-2-7b-chat-fp16"
     # model_id = "TheBloke/Wizard-Vicuna-7B-Uncensored-HF"
     # model_id = "TheBloke/guanaco-7B-HF"
     # model_id = 'NousResearch/Nous-Hermes-13b' # Requires ~ 23GB VRAM. Using STransformers
